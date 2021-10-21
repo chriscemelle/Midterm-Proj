@@ -1,0 +1,31 @@
+<div class="container mt-5">
+  <div class="card bg-secondary">
+    <div class="head">
+      <h2>Rate The Product of SPYDER HELMET</h2>
+    </div>
+    <hr>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img style="width: 468px;" class="rounded" src="../assets/spyder.jpg" alt="">
+        <hr>
+      </div>
+      <div class="col-md-6">
+        <h3>SPYDER SPIKE 2 MATTE BLACK DARK SMOKE INSTALLED FREE CLEAR LENSE (SINGLE VISOR)</h3>
+        <p>FEATURES:</p>
+        <li>ABS Composite Shell</li>
+        <li>Dual Density EPS Liner</li>
+        <li>Quick Release Retention System</li>
+        <li>Polycarbonate Scratch Resistant Visor</li>
+        <li>Removable and Washable Lining</li>
+        <li>ECE Rated with ICC Sticker</li>
+        
+        <ngb-rating [max]="5" [(rate)]="currentRate"></ngb-rating>
+        <hr>
+        <pre>Rate: <b>{{currentRate}}</b> of 5</pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
